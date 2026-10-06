@@ -1,0 +1,73 @@
+# Glossary — term → one-line definition → (book)
+
+- **Ability Chain** — the five factors limiting whether someone can do a behavior: time, money, physical effort, mental effort, routine fit; the weakest link governs (07).
+- **Action line** — the curve in the Fogg Behavior Model above which a prompted behavior happens; high ability tolerates low motivation (07).
+- **Action prompt** — a prompt where completing one existing behavior triggers the next; the most reliable prompt type (07).
+- **Anchor** — an existing reliable routine to which a new tiny behavior is attached ("After I…") (07).
+- **Amygdala** — brain structure central to fear and threat detection; drives fast, defensive reactions under stress (01).
+- **Bandwidth tax** — the reduction in cognitive capacity and executive control caused by scarcity itself (08).
+- **B = MAP** — Fogg Behavior Model: Behavior occurs when Motivation, Ability, and Prompt converge at the same moment (07).
+- **Borrowing** — taking from future resources to cover present scarcity, deepening the scarcity trap (08).
+- **Causal opacity** — cultural practices that work for reasons practitioners cannot explain (09).
+- **Celebration / Shine** — the immediate positive emotion deliberately created after a tiny behavior to wire it in (07).
+- **Channel factor** — a small, concrete situational pathway (map, time slot, pre-filled form) that converts intention into action (02, after Lewin).
+- **Choice architecture** — the design of the context in which people choose; there is no neutral design (04).
+- **Collective brain** — the pool of culturally transmitted knowledge whose size and connectivity drive innovation more than individual intelligence (09).
+- **Conformity bias** — copying what most people around you do, weighted by frequency (09).
+- **Construal** — a person's subjective interpretation of a situation, which governs their response more than the objective facts (02).
+- **Context cue** — the stable feature of the environment that triggers a habitual response (03).
+- **Counter-signaling** — signaling high status by *not* displaying; understatement from the secure (10).
+- **CRED (credibility-enhancing display)** — an action that would be costly if the actor did not believe what they claim; weighted far above words by learners (09).
+- **Default** — the outcome that occurs if the chooser does nothing; the most powerful nudge (04).
+- **Dominance** — status obtained through force or threat; produces compliance, not copying (09).
+- **Dopamine (anticipation)** — neurotransmitter signaling the *prediction* of reward and uncertainty, not reward itself (01).
+- **Driving / restraining forces** — Lewin's opposing forces holding behavior in equilibrium; remove restraints before adding drives (02, 03).
+- **Econs vs Humans** — idealized rational agents vs real people with limited attention and self-control (04).
+- **Elephant and rider** — intuition (elephant) leads, conscious reasoning (rider) justifies (05); in (10) the "elephant in the brain" is the hidden motive we avoid discussing.
+- **Focus dividend** — the sharpened attention scarcity brings to the scarce resource (08).
+- **Focus Mapping** — plotting candidate behaviors by impact and feasibility to find Golden Behaviors (07).
+- **Friction** — the effort, steps, distance, or time that make a behavior harder; operates regardless of motivation (03).
+- **Frontal cortex / PFC** — the brain region for impulse control, planning, and "doing the harder thing when it's the right thing"; impaired by stress (01).
+- **Fundamental attribution error** — explaining others' behavior by disposition while ignoring situational causes (02).
+- **Glucocorticoids** — stress hormones that narrow attention and impair the frontal cortex (01).
+- **Golden Behavior** — a behavior that is high-impact, wanted, and feasible (07).
+- **Habit discontinuity** — the disruption of existing habits when their context changes; a window for new behavior (03).
+- **Harmonizing** — Lieberman's term for the self being shaped by others' beliefs and values; self-control as group service (06).
+- **Hidden motive** — a driver of behavior (status, alliance, signaling) concealed from others and from oneself (10).
+- **Hive switch** — the capacity to shift from self-interest into group mode via ritual, synchrony, shared purpose (05).
+- **Insensitivity to outcome** — habits persisting after their reward disappears (03).
+- **Introspection illusion** — believing one's behavior follows from one's intentions when it follows from context (03).
+- **Lay dispositionism** — the everyday tendency to over-rely on traits to predict behavior (02).
+- **Mentalizing** — inferring others' beliefs and intentions; the brain's default-network activity (06).
+- **Mirror system** — neural system representing *what* someone is doing, as distinct from *why* (06).
+- **Moral Foundations Theory** — Care, Fairness, Loyalty, Authority, Sanctity, Liberty as innate bases of moral intuition (05).
+- **Morality binds and blinds** — shared morals bond groups and blind them to outsiders' merits (05).
+- **Motivation wave** — the temporary surge of motivation that reliably fades; design for the trough (07).
+- **Nudge** — a feature of choice architecture that predictably alters behavior without forbidding options or materially changing incentives (04).
+- **NUDGES** — iNcentives, Understand mappings, Defaults, Give feedback, Expect error, Structure complex choices (04).
+- **Over-imitation** — copying a whole practice including unnecessary steps (09).
+- **Oxytocin** — hormone increasing in-group warmth and out-group suspicion (01).
+- **Prestige** — status freely conferred on those others want to learn from; produces broad copying (09).
+- **Prestige bias** — preferentially learning from the prestigious, even outside their domain (09).
+- **Press secretary** — the conscious mind's role of issuing acceptable explanations for behavior chosen elsewhere (05, 10).
+- **Prompt** — the cue that tells a person to do a behavior now; without it nothing happens (07).
+- **Prompted vs mandated choice** — asking at a natural moment vs forcing a decision up front (04).
+- **Publicity principle** — only use nudges you would be comfortable defending publicly (04).
+- **Quasi-stationary equilibrium** — Lewin's term for behavior held steady by balanced forces (02).
+- **Scarcity trap** — the self-reinforcing cycle of shortfall, borrowing, and juggling (08).
+- **Self-similarity bias** — copying those like oneself in trade, age, sex, group (09).
+- **Signaling** — behavior that communicates traits to an audience because it is costly to fake (10).
+- **Situationism** — the principle that situational forces dominate behavior over personality (02).
+- **Slack** — buffer that absorbs shocks; its absence turns small problems into crises (08).
+- **Sludge** — excessive friction that makes beneficial choices harder (04).
+- **Social Intuitionist Model** — moral judgment as intuition first, reasoning second, aimed at persuading others (05).
+- **Social pain** — rejection and status loss processed by the same circuitry as physical pain (06).
+- **Status quo bias** — disproportionate preference for the current or pre-set state (04).
+- **Success bias** — copying those who visibly do well (09).
+- **Swarm of Behaviors** — Fogg's brainstorm of many candidate behaviors for an aspiration before selecting (07).
+- **Tension system** — a configuration of opposing forces whose balance determines behavior (02).
+- **Testosterone (amplifier)** — hormone that amplifies pre-existing status-seeking rather than causing aggression (01).
+- **Tiny habit** — the smallest version of a behavior, doable in under 30 seconds, anchored and celebrated (07).
+- **Tunneling** — scarcity's narrowing of attention to the urgent, making everything else invisible (08).
+- **Us/Them** — automatic, fluid in-group/out-group categorization (01).
+- **WEIRD** — Western, Educated, Industrialized, Rich, Democratic; the unrepresentative population most psychology studies (05, 09).

@@ -1,0 +1,69 @@
+# Glossary
+
+Term → one-line definition → (book ##).
+
+- **Adaptation-level phenomenon / hedonic treadmill** → judging outcomes relative to a baseline set by prior experience; gains stop being felt (03, 07, 09).
+- **Affect** → the continuous background feeling of valence (pleasant/unpleasant) and arousal, prior to any emotion label (06).
+- **Affect heuristic** → judging risk and benefit by how one feels about the thing (01).
+- **Affective forecasting** → predicting one's future emotional states; systematically biased (07).
+- **Affective realism** → experiencing one's own affect as a property of the world ("this feels risky") (06).
+- **Anchoring** → an initial number pulls later estimates toward it, even when arbitrary (01).
+- **Availability heuristic** → judging frequency by how easily examples come to mind (01, 03).
+- **Base rate** → the frequency of an outcome in the reference class, before case-specific detail (01, 08).
+- **Body budget (allostasis)** → the brain's predictive regulation of bodily resources; deficits produce unpleasant affect (06).
+- **Calibration** → the match between stated confidence and actual accuracy over many judgments (10, 05).
+- **Central / peripheral route** → effortful evaluation of arguments vs reliance on cues (02).
+- **Cheater detection** → heightened sensitivity to being exploited in an exchange (09).
+- **Cognitive dissonance** → discomfort from holding conflicting cognitions, especially about one's own competence or decency, and the drive to reduce it (02, 04).
+- **Cognitive ease** → the feeling of fluency that reads as truth, familiarity, and liking (01).
+- **Compliance / identification / internalization** → three depths of social influence: for reward, to be like an admired other, because convinced (02).
+- **Confirmation bias** → seeking and weighting evidence that supports an existing belief (03, 04, 10).
+- **Constructed emotion** → the theory that emotions are built from affect, concepts, and context rather than triggered as fixed responses (06).
+- **Credibility** → perceived expertise × perceived trustworthiness of a communicator (02).
+- **Double standard test** → "would I judge this the same way if the other side did it?" (10).
+- **Effort justification** → valuing something more because one worked hard to get it (02).
+- **Emotional granularity** → the ability to experience and label finely differentiated emotions (06).
+- **Equivalent bet test** → checking a belief by asking whether one would bet on it at the implied odds (10).
+- **Focalism / focusing illusion** → whatever one is attending to (or imagining) seems more important than it is; everything else is ignored (07, 01).
+- **Foot-in-the-door** → a small request agreed to increases compliance with a larger one (02, 03).
+- **Fourfold pattern** → risk-averse for likely gains and unlikely losses; risk-seeking for likely losses and unlikely gains (01).
+- **Framing** → the same facts presented as gain or loss produce different choices (01, 03).
+- **Fundamental attribution error** → explaining others' behaviour by disposition, underweighting situation (02, 08).
+- **Hindsight bias** → believing after the fact that one would have predicted the outcome (03, 01).
+- **Illusion of attention** → believing one notices everything salient; inattentional blindness (05).
+- **Illusion of cause** → inferring causation from correlation, sequence, or narrative (05).
+- **Illusion of confidence / illusion of validity** → treating confidence as a signal of competence; confidence tracks story coherence, not accuracy (05, 01).
+- **Illusion of explanatory depth / knowledge** → believing one understands how a familiar thing works until asked to explain it (05).
+- **Illusion of memory** → believing memory is a faithful recording (05, 03).
+- **Illusion of potential** → believing large untapped capacity can be unlocked by simple tricks (05).
+- **Impact bias** → overestimating the intensity and duration of future emotional reactions (07).
+- **Inoculation** → exposure to a weak counterargument plus refutation builds resistance to the full version (02).
+- **Insufficient justification** → a small reward for an action leads to belief in the action; a large reward does not (02).
+- **Introspection illusion (telling more than we can know)** → people lack access to the causes of their behaviour and confabulate reasons (08).
+- **Loss aversion** → losses weigh roughly twice as much as equivalent gains (01, 08).
+- **Naive realism** → the conviction that one sees reality as it is, so disagreement signals others' bias (04).
+- **Opportunity cost** → the value of the best alternative forgone (08).
+- **Outside view** → forecasting from the base rate of similar cases rather than from the specifics of one's own plan (01).
+- **Peak-end rule** → an experience is remembered by its most intense moment and its ending, not its duration (01, 07).
+- **Planning fallacy** → underestimating time and cost by forecasting from the plan (01).
+- **Post-decision dissonance** → inflating the chosen option and deflating the rejected one after choosing (02).
+- **Pratfall effect** → a competent person who makes a small blunder becomes more likeable (02).
+- **Premortem** → imagining the project has failed and writing why, before starting (01, from Klein).
+- **Presentism** → imagining the future with present feelings and conditions (07).
+- **Prospect theory** → outcomes evaluated as gains and losses from a reference point with loss aversion and diminishing sensitivity (01).
+- **Psychological immune system** → the mind's capacity to rationalise and find satisfaction in outcomes it cannot change (07).
+- **Pyramid of choice** → the process by which small justified decisions compound into entrenched, opposed positions (04).
+- **Recategorisation** → relabelling the same affect as a different emotion (06).
+- **Reference point** → the baseline from which gains and losses are judged (01).
+- **Regression to the mean** → extreme observations are followed by less extreme ones without any cause (01, 08).
+- **Scout / soldier mindset** → accuracy-motivated vs defence-motivated reasoning (10).
+- **Self-justification** → automatic editing of memory, blame, and interpretation to make past choices look right (04).
+- **Self-serving bias** → crediting oneself for successes and circumstances for failures (03).
+- **Spacing effect / testing effect** → distributed practice and retrieval produce better retention than massed re-reading (03).
+- **Status quo bias (and its test)** → preferring the current state because it is current; test: "if this weren't the default, would I choose it?" (08, 10).
+- **Substitution** → answering an easier question in place of the hard one asked (01).
+- **Sunk cost** → a cost already incurred that should not affect future decisions but does (01, 08).
+- **Surrogation** → using others' current experience as a forecast instead of one's imagination (07).
+- **System 1 / System 2** → fast, automatic, associative thought vs slow, effortful, deliberate thought (01).
+- **Two-sided message** → acknowledging and refuting opposing arguments; more persuasive to informed audiences (02).
+- **WYSIATI** → "what you see is all there is": judgment from available information with no sense of what is missing (01).

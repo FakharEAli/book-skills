@@ -1,0 +1,62 @@
+# Glossary — term → definition → (book)
+
+- **ABCs (Attunement, Buoyancy, Clarity)** — Pink's replacement for "Always Be Closing": perspective-taking, resilience, and helping others see their situation anew (08).
+- **Accusation audit** — stating the worst things the counterpart may think about you before they do, to defuse them (05).
+- **Ackerman bargaining** — planned concession pattern: 65/85/95/100% of target, shrinking steps, precise odd final number, non-monetary sweetener (05).
+- **Advance** — a buyer action that moves the sale forward; the desired call outcome in large sales (01).
+- **Ambivert advantage** — people in the middle of the extroversion scale outsell both extremes (08).
+- **Benefit (Rackham definition)** — how a feature meets an *explicit* need the buyer has stated; anything less is an Advantage (01).
+- **Black Swan** — an unknown fact that, once discovered, changes the negotiation (05).
+- **Blemished frame** — adding a small negative after positives to raise credibility (08).
+- **Buying commitment / commitment objective** — the specific small agreement you seek in an interaction (09).
+- **Calibrated question** — open "How/What" question that gives the counterpart control while they solve your problem (05).
+- **Commercial Teaching** — the six-step choreography: Warmer, Reframe, Rational Drowning, Emotional Impact, A New Way, Your Solution (06).
+- **Constructive tension** — productive discomfort aimed at the idea, not the person, that makes the buyer rethink (06).
+- **Continuation** — a call that ends pleasantly with no agreed action; a failed outcome in large sales (01).
+- **Credibility / Reliability / Intimacy / Self-orientation** — the four terms of the Trust Equation; the first three add, the last divides (03).
+- **Current state / Future state / The Gap** — where the buyer is, where they want to be, and the quantified distance that is the sale (04).
+- **Dynamic silence** — deliberate pause after a label or mirror so it lands (05).
+- **Engage, Listen, Frame, Envision, Commit** — the five-stage trust-building process (03).
+- **Evidence / Impact / Context / Constraints** — the four probes applied to each client issue before prioritising (10).
+- **Explicit need** — a stated want or desire; the only need type that predicts success in large sales (01).
+- **Fear of buying the invisible** — the service buyer's dominant motive: avoiding a mistake rather than seeking a gain (07).
+- **Five seller profiles** — Hard Worker, Challenger, Relationship Builder, Lone Wolf, Problem Solver (06).
+- **FOMU (fear of messing up)** — the omission-bias driver of customer indecision, distinct from FOMO (02).
+- **Implication question** — explores consequences of a problem to grow its seriousness (01).
+- **Implied need** — a statement of a problem or dissatisfaction without a stated want (01).
+- **Indecision (vs status quo)** — losing a deal to a buyer who agrees change is needed but cannot commit (02).
+- **Inoculation** — raising and answering a likely objection before the buyer or competitor does (09).
+- **Interrogative self-talk** — asking yourself "Can I? How?" before a task rather than affirming (08).
+- **JOLT** — Judge the indecision, Offer a recommendation, Limit the exploration, Take risk off the table (02).
+- **Labeling** — naming the counterpart's emotion or position: "It seems like…" (05).
+- **Late-night FM DJ voice** — slow, calm, downward-inflected tone for tension (05).
+- **Make the invisible tangible** — giving a service physical, nameable form: process, diagram, evidence (07).
+- **Mirroring** — repeating the last 1–3 words with rising inflection to prompt elaboration (05).
+- **Move off the solution** — getting the client from their proposed fix to the result it must produce (10).
+- **Need-payoff question** — asks the buyer to state the value of solving the problem (01).
+- **No guessing** — never fill in budget, meaning, timeline or decision process from assumption (10).
+- **No-oriented question** — a question the counterpart can safely answer "no" to, lowering defensiveness (05).
+- **Off-ramp** — the clear, easy next action you leave a person with (08).
+- **ORDER** — Opportunity, Resources, Decision process, Exact solution, Results (10).
+- **Outcome uncertainty / Valuation problem / Lack of information** — the three sources of indecision (02).
+- **Perception − expectation** — Beckwith's satisfaction formula (07).
+- **Pings and pongs** — low-stakes seller probes and the customer reactions that reveal indecision (02).
+- **Pixar pitch** — six-sentence story pitch: Once upon a time… Every day… One day… Because of that… Because of that… Until finally… (08).
+- **Position** — the single idea a prospect holds about you (07).
+- **Problem Identification Chart (PIC)** — pre-mapped list of problems, symptoms, impacts and root causes your service addresses (04).
+- **Problem-centric selling** — starting from the buyer's problem; product appears only when it closes a specific gap (04).
+- **Question pitch** — pitching as a question when your argument is strong (08).
+- **Rational drowning** — quantifying the reframed problem until its size is undeniable (06).
+- **Reframe** — the unexpected insight that changes how the buyer sees their problem (06).
+- **Root cause** — why the problem exists; the target of a durable solution (04).
+- **Servant selling** — making the sale personal and purposeful; the test that the buyer is better off (08).
+- **Situation question** — fact-finding about the current setup; minimise (01).
+- **Six Whys** — why change, why now, why your industry solution, why you, why your product, why spend the money (09).
+- **SPIN** — Situation, Problem, Implication, Need-payoff (01).
+- **Tactical empathy** — understanding and articulating the counterpart's perspective to influence them (05).
+- **Take risk off the table** — downside protection and lowered expectations to beat outcome uncertainty (02).
+- **Teach, Tailor, Take Control** — the three Challenger behaviours (06).
+- **That's right (vs you're right)** — the signal that your summary landed, versus a brush-off (05).
+- **Trust Equation** — (Credibility + Reliability + Intimacy) / Self-orientation (03).
+- **Trusted advisor evolution** — subject-matter expert → affiliated field → valued resource → trusted advisor (03).
+- **Yellow light** — any hesitation, vagueness or incongruity to be named immediately (10).

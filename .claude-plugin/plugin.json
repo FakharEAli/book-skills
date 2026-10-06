@@ -1,0 +1,10 @@
+{
+  "name": "book-skills",
+  "displayName": "Book Skills: Sales, Offers & Psychology",
+  "version": "1.0.0",
+  "description": "Seven skills distilling 70 books on psychology, behavior, marketing, sales, copywriting and offer design into decision rules, playbooks and templates for selling AI-automation services to business owners.",
+  "author": { "name": "Fakhar E Ali", "email": "fakhar@alphaaccelerator.net" },
+  "license": "MIT",
+  "keywords": ["sales", "copywriting", "offers", "psychology", "marketing", "books"],
+  "skills": ["./skills/"]
+}

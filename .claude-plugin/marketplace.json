@@ -1,0 +1,13 @@
+{
+  "name": "book-skills",
+  "owner": { "name": "Fakhar E Ali", "email": "fakhar@alphaaccelerator.net" },
+  "description": "Book Skills plugin marketplace",
+  "plugins": [
+    {
+      "name": "book-skills",
+      "source": "./",
+      "description": "Seven skills distilling 70 books on psychology, behavior, marketing, sales, copywriting and offer design.",
+      "version": "1.0.0"
+    }
+  ]
+}

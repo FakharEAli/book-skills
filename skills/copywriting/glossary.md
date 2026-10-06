@@ -1,0 +1,52 @@
+# Glossary
+
+- **A-pile / B-pile** — the personal-looking mail people open vs the obviously commercial mail they bin; make cold messages look like the A-pile (09).
+- **AIDA** — Attention, Interest, Desire, Action; the letter/email skeleton (09; also 02 as the motivating sequence).
+- **Awareness, 5 stages of** — Unaware → Problem Aware → Solution Aware → Product Aware → Most Aware; dictates where the headline begins (01).
+- **BFD** — Beliefs, Feelings, Desires of the audience, listed before writing (02).
+- **Big Idea** — one creative idea strong enough to run for years; Ogilvy's screening questions test it (05).
+- **Big Secret lead** — indirect opening promising a withheld insight; for Problem Aware readers (06).
+- **Buying environment** — the mood and context the copy and layout create so the reader is ready to buy (03).
+- **Camouflage** — borrowing the authority of a trusted format (editorial, report) for an ad (01; also "ugly ads" in 10).
+- **Concentration** — body-copy technique of attacking competitors' weak points (01).
+- **Direct vs indirect lead** — direct names the benefit/product early (Offer, Promise, Problem-Solution); indirect withholds to earn attention (Secret, Proclamation, Story) (06).
+- **Eye relief** — white space, short paragraphs, subheads that make a page look easy to read (09).
+- **Features vs benefits** — what the product is/has vs what the reader gets; convert every feature (02).
+- **Four functions of a headline** — get attention, select the audience, deliver a complete message, draw into the body (02).
+- **Gradualization** — walking a sceptic from accepted facts to your claim in small steps (01).
+- **Harmonizing** — getting the reader nodding in agreement before asking anything (03).
+- **Headline formulas** — tested openings ("How to", "Who else wants", "New", "Why", "Which", "To the ... who") (07).
+- **Identification** — linking the product to the role or identity the reader wants; the stage-5 sophistication move (01).
+- **Inoculation** — raising and refuting the objection before the reader does (10; also 03).
+- **Intensification** — piling concrete images of the desire fulfilled (01).
+- **Keyed test / split run** — two versions, each tracked, results counted (04, 07).
+- **Lead** — the opening portion of a sales message (first ~10–20%) that decides whether the rest is read (06).
+- **Life-Force 8 (LF8)** — eight innate drives: survival, food/drink, freedom from fear/pain, sexual companionship, comfort, superiority, protecting loved ones, social approval (10).
+- **Mass desire** — a want shared by millions, measured by urgency, staying power and scope; copy channels it, never creates it (01).
+- **Means-end chain** — feature → consequence → end-state the buyer actually wants (10; same move as the "so what?" test in 02).
+- **Mechanism / Mechanization** — the how-it-works that makes a worn claim believable; the stage-3/4 sophistication move (01).
+- **Message hierarchy** — the order of things a reader must believe, used to order page sections (08).
+- **Message mining / review mining** — extracting verbatim customer phrases from reviews, transcripts, forums and tagging them (08).
+- **Motivating sequence** — attention → need → satisfy/position → prove → ask (02).
+- **Nine learned wants** — informed, curiosity, cleanliness, efficiency, convenience, dependability, beauty/style, economy, bargains (10).
+- **Offer lead** — opening with the deal itself; for Most Aware readers (06).
+- **Positioning** — one sentence on what the product does and who it is for (05).
+- **Proclamation lead** — a bold or contrarian statement demanding explanation; for Problem Aware/Unaware (06).
+- **Problem-Solution lead** — name and agitate the pain, then present the fix; the B2B default (06).
+- **Promise lead** — opening with the single biggest benefit; for Product/Solution Aware (06).
+- **Psychological triggers** — Sugarman's checklist (involvement, proof of value, authority, satisfaction conviction, urgency, exclusivity, specificity, hope...) (03).
+- **Redefinition** — reframing what the product category is (01).
+- **Rule of One** — one idea, one emotion, one story, one benefit, one response (06; Wiebe uses the same name in 08).
+- **Salesmanship in print** — judge every line as a salesperson across a desk would (04).
+- **Satisfaction conviction** — a guarantee that exceeds what the buyer expected (03).
+- **Seeds of curiosity** — short forward hooks at the end of sections ("But there's more.") (03).
+- **Self-interest / news / curiosity** — Caples' three headline appeals, in order of pulling power (07).
+- **Sell the concept** — headline the idea the buyer wants to own, not the object (03).
+- **Slippery slide** — copy built so each element gets the next read, down to the order (03).
+- **So what? test** — ask it of every benefit until the answer is money, time, status or safety (02).
+- **Sophistication, 5 stages of** — how many similar claims the market has heard; dictates claim style (01).
+- **Starving crowd** — a market already hungry for the outcome; the first advantage to secure (09).
+- **Story lead** — opening with a narrative the reader identifies with; for Unaware readers (06).
+- **Sweet spot** — intersection of what customers want most, what the product does best, what competitors don't say (08).
+- **Voice of customer (VOC)** — customers' own words, collected verbatim as copy raw material (08).
+- **Write to one person** — picture a single named reader and write as if speaking to them (09).
