@@ -1,7 +1,7 @@
 ---
 name: lead-magnets
-description: "Researches a market segment's own language, picks the lead-magnet format that fits the segment's awareness stage, writes the full magnet (scorecard, calculator, teardown, report), drafts its funnel, and reviews which magnets convert. Use when the user says \"build me a lead magnet\", \"what lead magnet should I make for <industry>\", \"research what <segment> owners complain about\", \"make a scorecard / quiz / calculator for prospects\", \"write the landing page and nurture emails for my magnet\", \"which of my lead magnets is working\", or \"turn this problem into a free resource\". Modes: research, build, funnel, review"
-argument-hint: "<research|build|funnel|review> [segment | problem | magnet]"
+description: "Researches a market segment's own language, picks the lead-magnet format that fits the segment's awareness stage, writes the full magnet (scorecard, calculator, teardown, report), drafts its funnel, and reviews which magnets convert. Use when the user says \"build me a lead magnet\", \"what lead magnet should I make for [industry]\", \"research what [segment] owners complain about\", \"make a scorecard / quiz / calculator for prospects\", \"write the landing page and nurture emails for my magnet\", \"which of my lead magnets is working\", or \"turn this problem into a free resource\". Modes: research, build, funnel, review"
+argument-hint: "research|build|funnel|review [segment | problem | magnet]"
 ---
 
 # Lead magnets

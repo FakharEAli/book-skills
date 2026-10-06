@@ -1,7 +1,7 @@
 ---
 name: deals
 description: "Runs the deal desk for a service business: prepares discovery calls, debriefs recorded calls into a scored coaching note, an updated deal file and a follow-up draft, rescues stalled deals with the one JOLT lever that fits, reviews the whole pipeline, and writes win/loss post-mortems that compound into patterns. Use when the user says 'prep me for my call with X', 'what calls do I have tomorrow', 'debrief my last call', 'score this transcript', 'they said let me think about it', 'this deal has gone quiet', 'show me my pipeline', 'we lost the X deal, why?', or 'we won X, log it'. Modes: prep, debrief, rescue, pipeline, postmortem."
-argument-hint: "<prep|debrief|rescue|pipeline|postmortem> [company | upcoming | latest | call link | won|lost]"
+argument-hint: "prep|debrief|rescue|pipeline|postmortem [company | upcoming | latest | call link | won|lost]"
 ---
 
 # Deals

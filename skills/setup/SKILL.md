@@ -1,7 +1,7 @@
 ---
 name: setup
 description: "Creates and maintains the private Book Skills workspace: builds the folder from templates, interviews the user to fill ICP, offers, pricing, evidence and voice, optionally pre-fills from their website, LinkedIn and recent calls, and audits workspace health. Use when the user says \"set me up\", \"set up book skills\", \"run setup\", \"create my workspace\", \"fill in my ICP and offers\", \"add proof to my evidence file\", \"pre-fill from my website / my calls\", \"check my workspace\" or \"what's missing in my setup\". Modes: init, interview, bootstrap, audit"
-argument-hint: "<init|interview|bootstrap|audit> [round or source]"
+argument-hint: "init|interview|bootstrap|audit [round or source]"
 ---
 
 # Setup: workspace creation, interview, bootstrap, audit

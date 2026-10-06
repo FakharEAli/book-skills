@@ -1,7 +1,7 @@
 ---
 name: pitch
 description: "Builds and defends the commercial pitch from the user's real deal data: a One-Offer Sheet for a segment, a single-recommendation proposal with ROI math in the buyer's numbers, a live prospect roleplay with scoring, word-for-word negotiation responses, and a scored critique of an existing proposal or deck. Use when the user says \"build my offer for dental clinics\", \"write a proposal for Acme\", \"they said we're too expensive\", \"another agency quoted half\", \"let me practise the call with this prospect\", \"roleplay the owner\", \"review this proposal before I send it\", \"how should I price this\". Modes: offer, proposal, rehearse, negotiate, review."
-argument-hint: "<offer|proposal|rehearse|negotiate|review> [segment | company | persona | pasted text]"
+argument-hint: "offer|proposal|rehearse|negotiate|review [segment | company | persona | pasted text]"
 ---
 
 # Pitch

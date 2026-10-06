@@ -1,7 +1,7 @@
 ---
 name: outreach
-description: "Builds scored prospect lists with a cited why-now trigger per row, writes evidence-checked cold emails and LinkedIn messages, designs 21-day multichannel sequences, drafts replies that turn objections into a dated next step, and reviews which angles, triggers and proof lines actually get replies. Use when the user says \"build me a prospect list\", \"find leads in <segment>\", \"write a cold email to\", \"draft LinkedIn outreach for\", \"make a follow-up sequence\", \"how do I reply to this\", \"they said they already use X\", \"what's working in my outreach\". Modes: list, write, sequence, reply, review."
-argument-hint: "<list|write|sequence|reply|review> [segment n | prospect | pasted reply | period]"
+description: "Builds scored prospect lists with a cited why-now trigger per row, writes evidence-checked cold emails and LinkedIn messages, designs 21-day multichannel sequences, drafts replies that turn objections into a dated next step, and reviews which angles, triggers and proof lines actually get replies. Use when the user says \"build me a prospect list\", \"find leads in [segment]\", \"write a cold email to\", \"draft LinkedIn outreach for\", \"make a follow-up sequence\", \"how do I reply to this\", \"they said they already use X\", \"what's working in my outreach\". Modes: list, write, sequence, reply, review."
+argument-hint: "list|write|sequence|reply|review [segment n | prospect | pasted reply | period]"
 ---
 
 # Outreach

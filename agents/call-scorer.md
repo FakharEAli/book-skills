@@ -1,6 +1,6 @@
 ---
 name: call-scorer
-description: "Scores one sales or discovery call transcript against SPIN, Gap Selling, the Trust Equation, yellow lights, JOLT and Advance-vs-Continuation, and returns a fixed-format scorecard with verbatim, timestamped evidence and a 0-100 score. Dispatch it from the deals skill's debrief mode, or whenever a user asks 'score this call', 'how did my discovery call go?', or 'what did I miss on the call with <company>?'. Expects the full transcript (or a file path to it) in the dispatch prompt."
+description: "Scores one sales or discovery call transcript against SPIN, Gap Selling, the Trust Equation, yellow lights, JOLT and Advance-vs-Continuation, and returns a fixed-format scorecard with verbatim, timestamped evidence and a 0-100 score. Dispatch it from the deals skill's debrief mode, or whenever a user asks 'score this call', 'how did my discovery call go?', or 'what did I miss on the call with [company]?'. Expects the full transcript (or a file path to it) in the dispatch prompt."
 tools: ["Read", "Grep"]
 model: inherit
 ---

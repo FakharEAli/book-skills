@@ -10,7 +10,7 @@
       "name": "book-skills",
       "source": "./",
       "description": "Client-acquisition system for service businesses: 5 workflow skills (lead magnets, outreach, deals, pitch, setup), 4 agents, 2 hooks and 7 knowledge skills distilling 70 books on psychology, sales, copywriting and offer design. Grounded in your private workspace; learns from every call and reply.",
-      "version": "2.0.0"
+      "version": "2.0.1"
     }
   ]
 }
