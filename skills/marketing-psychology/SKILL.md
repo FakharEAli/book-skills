@@ -87,3 +87,5 @@ When a question goes beyond the Core Frameworks, READ the relevant `books/NN-*.m
 
 ## Scope & Limits
 Distilled from the frameworks these books are known for, not from the book text. Where books disagree, the book files say so (differentiation: 10 vs 03/07; push vs remove: 01 vs 07; logic vs testing: 08 vs 02/10). Treat proprietary sales-research claims as practitioner evidence, not replicated science. Combine with the sibling skills: human-psychology, human-behavior, marketing-psychology, sales-psychology, copywriting, offer-creation, client-eagerness-playbook.
+
+**To apply these methods to your real pipeline**, use the workflow skills: `setup` (workspace), `lead-magnets`, `outreach`, `deals`, `pitch`. They cite this skill's book files as their method library.

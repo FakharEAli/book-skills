@@ -85,3 +85,5 @@ When a question goes beyond The Sequence, READ the relevant `books/NN-*.md` and 
 
 ## Scope & Limits
 Use this skill to run the process; use the six sibling skills for depth. Each book file here is deliberately short and points to the sibling skill that holds the fuller treatment: human-psychology, human-behavior, marketing-psychology, sales-psychology, copywriting, offer-creation. Distilled from the frameworks these books are known for, not from the book text. Where books disagree (Hormozi's urgency devices versus Dixon and McKenna's finding that pressure deepens indecision; Cialdini's scarcity versus Maister's low self-orientation), the book files say so and this skill sides with the trust-first authors because the process is built for repeat business with operators. Treat proprietary sales-research claims (Rackham's call studies, Dixon and McKenna's call analysis) as practitioner evidence, not replicated science.
+
+**To apply these methods to your real pipeline**, use the workflow skills: `setup` (workspace), `lead-magnets`, `outreach`, `deals`, `pitch`. They cite this skill's book files as their method library.

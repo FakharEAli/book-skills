@@ -1,0 +1,29 @@
+{
+  "description": "Book Skills: session-start pipeline status (silent without a workspace) and a confirmation prompt before any MCP tool that sends or publishes.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/session_status.py\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "^mcp__.+__(send|send_message|send_email|send_mail|send_sms|send_dm|send_reply|send_invite|reply|reply_all|forward|post_message|slack_send_message|slack_schedule_message|schedule_message|create_event|update_event|respond_to_event|publish_[A-Za-z0-9_-]*|[A-Za-z0-9-]+_publish_[A-Za-z0-9_-]*|share_[A-Za-z0-9_-]*|[A-Za-z0-9-]+_share)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/outbound_guard.py\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

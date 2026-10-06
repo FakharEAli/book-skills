@@ -1,10 +1,28 @@
 {
   "name": "book-skills",
-  "displayName": "Book Skills: Sales, Offers & Psychology",
-  "version": "1.0.0",
-  "description": "Seven skills distilling 70 books on psychology, behavior, marketing, sales, copywriting and offer design into decision rules, playbooks and templates for selling AI-automation services to business owners.",
-  "author": { "name": "Fakhar E Ali", "email": "fakhar@alphaaccelerator.net" },
+  "displayName": "Book Skills: Client Acquisition OS",
+  "version": "2.0.0",
+  "description": "Client-acquisition system for service businesses: 5 workflow skills (lead magnets, outreach, deals, pitch, setup), 4 agents, 2 hooks and 7 knowledge skills distilling 70 books on psychology, sales, copywriting and offer design. Grounded in your private workspace; learns from every call and reply.",
+  "author": {
+    "name": "Fakhar E Ali",
+    "email": "fakhar@alphaaccelerator.net"
+  },
   "license": "MIT",
-  "keywords": ["sales", "copywriting", "offers", "psychology", "marketing", "books"],
-  "skills": ["./skills/"]
+  "keywords": [
+    "sales",
+    "client-acquisition",
+    "outreach",
+    "lead-magnets",
+    "copywriting",
+    "offers",
+    "proposals",
+    "psychology",
+    "agency",
+    "books"
+  ],
+  "skills": [
+    "./skills/"
+  ],
+  "homepage": "https://github.com/FakharEAli/book-skills",
+  "repository": "https://github.com/FakharEAli/book-skills"
 }

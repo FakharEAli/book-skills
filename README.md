@@ -1,36 +1,41 @@
 <h1 align="center">📚 Book Skills</h1>
 
 <p align="center">
-  <strong>70 books. 7 Claude Code skills. One job: make clients eager to work with you.</strong>
+  <strong>A client-acquisition system for Claude Code, built on 70 books.</strong><br>
+  It researches your market, writes your magnets and outreach, debriefs your calls, rescues stalled deals and builds your proposals,<br>
+  grounded in <em>your</em> ICP, offers and proof, and it learns from every call and reply.
 </p>
 
 <p align="center">
-  <img alt="Skills" src="https://img.shields.io/badge/skills-7-blueviolet?style=for-the-badge">
+  <img alt="Workflows" src="https://img.shields.io/badge/workflow%20skills-5-ff6f61?style=for-the-badge">
+  <img alt="Modes" src="https://img.shields.io/badge/modes-23-orange?style=for-the-badge">
+  <img alt="Agents" src="https://img.shields.io/badge/agents-4-blueviolet?style=for-the-badge">
   <img alt="Books" src="https://img.shields.io/badge/books%20distilled-70-blue?style=for-the-badge">
-  <img alt="Always-on cost" src="https://img.shields.io/badge/always--on%20cost-~1k%20tokens-green?style=for-the-badge">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-lightgrey?style=for-the-badge">
 </p>
 
 <p align="center">
   <a href="#-install">Install</a> ·
-  <a href="#-which-skill-when">Which skill when</a> ·
+  <a href="#-what-it-does">What it does</a> ·
+  <a href="#-the-loop">The loop</a> ·
+  <a href="#-commands">Commands</a> ·
+  <a href="#-why-its-different">Why it's different</a> ·
+  <a href="#-evals">Evals</a> ·
   <a href="#-the-70-books">The 70 books</a> ·
-  <a href="#-how-a-skill-is-built">How a skill is built</a> ·
-  <a href="#-design-decisions">Design decisions</a> ·
   <a href="#%EF%B8%8F-honest-caveats">Caveats</a>
 </p>
 
 ---
 
-**Book Skills** is a Claude Code plugin that turns the best books on psychology, behaviour, marketing, sales, copywriting and offer design into **decision rules, playbooks and fill-in templates** your agent applies while you work. Not summaries. Toolkits.
-
-It was built for one concrete situation: running an AI-automation agency and selling to business owners. Every worked example, script and template is written for that case, but the frameworks are the authors' and travel anywhere a service is sold.
-
+```text
+/book-skills:deals debrief latest
+→ Score 58/100 · ended in a Continuation ("send me some info"), not an Advance
+→ Missed yellow light at 14:32: "we tried something like this before"
+→ Stall: valuation uncertainty → JOLT · Offer a recommendation
+→ Deal file updated · 6 buyer verbatims saved · follow-up drafted with a dated next step
 ```
-/book-skills:sales-psychology  prospect said "let me think about it"
-/book-skills:offer-creation    package our onboarding automation for dental clinics
-/book-skills:copywriting       rewrite this landing page hero for a problem-aware audience
-```
+
+Most "AI sales" prompts give generic advice. Book Skills **does the work**: it reads your call recordings, inbox and prospect data through whatever tools you've connected, applies named frameworks from the best books on selling, and writes back what it learned to a private workspace, so month six is sharper than month one.
 
 ---
 
@@ -41,218 +46,187 @@ claude plugin marketplace add FakharEAli/book-skills
 claude plugin install book-skills@book-skills
 ```
 
-That's it. Seven skills appear as `/book-skills:<name>`. Restart any open session to pick them up.
+Then, once:
 
-<details>
-<summary>Install from a local clone instead</summary>
-
-```bash
-git clone https://github.com/FakharEAli/book-skills.git
-claude plugin marketplace add ./book-skills
-claude plugin install book-skills@book-skills
+```text
+/book-skills:setup
 ```
-</details>
+
+Setup creates your private workspace (`~/.book-skills/`, never in this repo) and interviews you for your ICP, offers, pricing, proof and voice. Optional `bootstrap` mode pre-fills it from your website, LinkedIn and recent call transcripts, and asks before reading any of them.
 
 <details>
-<summary>Use in claude.ai (no Claude Code)</summary>
+<summary>Cowork · claude.ai · local clone</summary>
 
-Zip any folder under `skills/` and upload it at **Settings → Capabilities → Skills**. Each skill is self-contained.
+- **Cowork:** download the repo as a zip, rename it `book-skills.plugin`, and drop it into a Cowork chat (or Settings → Plugins).
+- **claude.ai:** zip any single folder under `skills/` and upload it at Settings → Capabilities → Skills. Knowledge skills work fully; workflow skills work without a workspace and say what they assumed.
+- **Local clone:** `git clone https://github.com/FakharEAli/book-skills && claude plugin marketplace add ./book-skills && claude plugin install book-skills@book-skills`
 </details>
 
 ---
 
-## 🧭 Which skill when
+## 🧭 What it does
 
-| You are… | Invoke | Books |
+| Layer | Skill | What you get |
 |---|---|---|
-| Starting a **new offer or new industry** and want the whole sequence | `/book-skills:client-eagerness-playbook` ⭐ *start here* | 10-book reading order as a 10-stage process with templates |
-| **Packaging, pricing, positioning**, guarantees, testing willingness to pay | `/book-skills:offer-creation` | Hormozi, Osterwalder, Dunford, Ramanujam, Joyner, Enns, Moesta, Christensen, Bland, Kim & Mauborgne |
-| Running **discovery calls**, hearing "let me think about it", negotiating scope | `/book-skills:sales-psychology` | Rackham, Dixon & McKenna, Maister, Keenan, Voss, Adamson, Beckwith, Pink, Hoffeld, Khalsa |
-| Writing **landing pages, cold email, LinkedIn, proposals** | `/book-skills:copywriting` | Schwartz, Bly, Sugarman, Hopkins, Ogilvy, Masterson, Caples, Wiebe, Halbert, Whitman |
-| Making the **message land**: proof, credibility, removing resistance | `/book-skills:marketing-psychology` | Cialdini, Shotton, Barden, Heath, Berger, Sutherland, Martin & Marks, Sharp |
-| Understanding how prospects **judge risk and justify past failures** | `/book-skills:human-psychology` | Kahneman, Aronson, Myers, Tavris, Chabris & Simons, Barrett, Gilbert, Nisbett, Pinker, Galef |
-| Why "yes" doesn't become **implementation**; onboarding and adoption | `/book-skills:human-behavior` | Sapolsky, Ross & Nisbett, Wood, Thaler & Sunstein, Haidt, Lieberman, Fogg, Mullainathan, Henrich, Simler & Hanson |
+| **1 · Lead magnets** | `/book-skills:lead-magnets` | A market brief in your buyers' own words (scraped reviews, forums, job posts), then the right magnet **for their awareness stage**: scorecard, cost calculator, teardown or ROI model, written in full, with landing page, 5-email nurture and launch post |
+| **2 · Outreach** | `/book-skills:outreach` | Prospect lists scored 0–100 with a cited "why now" trigger per row; cold emails and LinkedIn messages that pass an evidence audit; 21-day sequences; reply handling that moves to a dated next step; a review that learns which angles actually get replies |
+| **3 · Deals** | `/book-skills:deals` | One-page call prep with a SPIN question tree; **debriefs that score your call**, update the deal, save buyer verbatims and draft the follow-up; JOLT-based rescue for stalled deals; weighted pipeline; win/loss post-mortems that surface patterns |
+| **4 · Pitch** | `/book-skills:pitch` | A One-Offer Sheet priced from your real deal gaps; single-recommendation proposals with ROI in the buyer's numbers; live negotiation help; **roleplay against a simulated prospect** who hides concerns until you earn them |
+| **0 · Setup** | `/book-skills:setup` | Workspace creation, interview, optional bootstrap from your site/LinkedIn/calls, and a health audit |
 
-Each skill's `SKILL.md` carries a **Situation Index** so Claude knows which book file to open for the problem you describe.
+Underneath sit **7 knowledge skills** (psychology, behaviour, marketing psychology, sales psychology, copywriting, offer creation, and the client-eagerness playbook), the method library every workflow cites. You can call them directly too.
+
+---
+
+## 🔁 The loop
+
+```text
+           ┌──────────── context/ ─────────────┐
+           │  ICP · offers · pricing · EVIDENCE │
+           │  voice · competitors               │
+           └───────────────┬───────────────────┘
+                           ▼
+ lead-magnets ──▶ outreach ──▶ deals ──▶ pitch ──▶ won / lost
+      ▲              ▲           │          │          │
+      │              │           ▼          ▼          ▼
+      └──────────────┴──── memory/ ◀───────────────────┘
+          voc-swipe · objections · outreach-learnings
+          magnet-learnings · win-loss · suppression
+```
+
+Every mode **writes back**: buyer phrases from calls feed your copy, objections feed your proposals, reply rates rewrite your "current best angles", win/loss patterns reshape your offer. That data is yours alone. It's what no generic prompt, course or competitor can copy.
+
+---
+
+## ⌨️ Commands
+
+| Skill | Modes |
+|---|---|
+| `setup` | `init` · `interview` · `bootstrap` · `audit` |
+| `lead-magnets` | `research <segment>` · `build <problem> [format]` · `funnel <magnet>` · `review` |
+| `outreach` | `list <segment> [n]` · `write <prospect>` · `sequence <prospect>` · `reply <pasted reply>` · `review [period]` |
+| `deals` | `prep <company\|upcoming>` · `debrief <link\|latest>` · `rescue <company>` · `pipeline` · `postmortem <company> won\|lost` |
+| `pitch` | `offer <segment>` · `proposal <company>` · `rehearse <company>` · `negotiate <pushback>` · `review <draft>` |
+
+Or just describe the situation ("the dentist went quiet after the proposal") and Claude routes it.
+
+**Agents** (dispatched by the workflows): `call-scorer` (100-point call rubric with verbatims and timestamps) · `voc-miner` (verbatim buyer language, source-checked) · `evidence-auditor` (every claim vs. your proof ledger) · `prospect-roleplay` (in-character buyer for practice).
+
+**Hooks:** a session-start line flags overdue next steps and stale reviews (silent when there's nothing to say, zero cost without a workspace), and an outbound guard asks before any tool sends, posts, publishes or books. Drafts are never blocked.
+
+---
+
+## 💎 Why it's different
+
+- **The evidence rule.** Every result, number, client name or testimonial in outbound copy must trace to a row in your `evidence.md`. Anything else becomes `[NEEDS PROOF: …]`. It will not invent proof, and the auditor checks before you see a draft.
+- **Draft, never send.** Nothing leaves your machine without your yes. A hook enforces it.
+- **Decisions, not advice.** Explicit rubrics and thresholds: trigger decay by age, minimum 30 sends before calling a winner, Continuation-capped call scores, magnet keep/kill bands, a computed inverted Ackerman ladder from your price floor.
+- **Named methods, cited.** SPIN, JOLT, Gap Selling, Trust Equation, Value Equation, Schwartz awareness stages, Commercial Teaching, tactical empathy: each recommendation names the framework and the book file it came from.
+- **Tool-agnostic.** Fathom, Gong, Gmail, Clay, Apollo, Notion, Gamma, Typeform, Supabase, Slack, or none: it detects what you've connected and falls back gracefully. See [CONNECTORS.md](CONNECTORS.md).
+- **Private by design.** Your workspace lives outside the plugin. The public repo contains methods, never your data.
+
+---
+
+## 🧪 Evals
+
+`evals/` holds 10 cases, each a realistic synthetic scenario with 3–4 pass/fail graders that test the behaviour a generic assistant gets wrong:
+
+| Case | What it tests | With plugin | Baseline |
+|---|---|---|---|
+| `deals-debrief-continuation-not-advance` | "send me some info" is a Continuation, not a win | **4/4** | 1/4 |
+| `deals-debrief-valuation-stall` | classifies valuation indecision; one recommendation; dated Advance | **4/4** | 1/4 |
+| `deals-rescue-outcome-uncertainty` | takes risk off the table; no FOMO | **4/4** | 2/4 |
+| `lead-magnets-build-format-by-awareness` | picks magnet format by awareness stage | **4/4** | 2/4 |
+| `lead-magnets-no-invented-stats` | refuses to invent statistics | **3/3** | 1/3 |
+| `outreach-reply-objection-advance` | "we use Zapier" → move off the solution → dated next step | **4/4** | 3/4 |
+| `outreach-write-needs-proof` | no invented client results; ≤90 words; question CTA | **3/3** | 2/3 |
+| `pitch-negotiate-competitor-half-price` | no reflex discount; calibrated question; trade | **4/4** | 4/4 |
+| `pitch-proposal-one-recommendation` | one recommendation; ROI in buyer's numbers; risk reversal | **4/4** | 3/4 |
+| `setup-evidence-not-fabricated` | vague claims filed as unverified, not as proof | **3/3** | 1/3 |
+| **Total** | | **37/37 (100%)** | 20/37 (54%) |
+
+Method: one run per arm, graded blind by a separate model against the rubric files; full verdicts in [evals/RESULTS.md](evals/RESULTS.md). Caveats: n = 1 per arm; the rubrics were written alongside the skills, so they test the behaviours the plugin is designed for; blinding is imperfect because plugin outputs mention its own commands.
+
+Run them with `claude plugin eval .` (early access), or read the cases as a spec.
+
+---
+
+## 🏗 Architecture
+
+```
+book-skills/
+├── skills/
+│   ├── setup/ lead-magnets/ outreach/ deals/ pitch/    # workflow skills: SKILL.md → modes/*.md → templates/
+│   └── human-psychology/ … client-eagerness-playbook/  # knowledge skills: SKILL.md → books/NN-*.md → playbooks
+├── agents/        call-scorer · voc-miner · evidence-auditor · prospect-roleplay
+├── hooks/         session_status.py · outbound_guard.py
+├── shared/        workspace.md: the contract every workflow follows
+├── evals/         10 cases × graders
+└── CONNECTORS.md  tool categories, detection, fallbacks
+```
+
+**Token economics:** only skill descriptions are always loaded. A workflow loads its `SKILL.md` (~1.5k tokens) and then only the one mode file it needs (~2k). Book files load only when a recommendation needs the full method.
 
 ---
 
 ## 📖 The 70 books
 
-<details open>
-<summary><strong>1 · Human psychology</strong> — how people think, feel, perceive and justify decisions</summary>
+<details>
+<summary><strong>Human psychology</strong> · Kahneman, Aronson, Myers, Tavris &amp; Aronson, Chabris &amp; Simons, Barrett, Gilbert, Nisbett, Pinker, Galef</summary>
 
-| # | Book | Author |
-|---|---|---|
-| 01 | Thinking, Fast and Slow | Daniel Kahneman |
-| 02 | The Social Animal | Elliot Aronson, Joshua Aronson |
-| 03 | Psychology (14th ed.) | David G. Myers, C. Nathan DeWall, June Gruber |
-| 04 | Mistakes Were Made (but Not by Me) | Carol Tavris, Elliot Aronson |
-| 05 | The Invisible Gorilla | Christopher Chabris, Daniel Simons |
-| 06 | How Emotions Are Made | Lisa Feldman Barrett |
-| 07 | Stumbling on Happiness | Daniel Gilbert |
-| 08 | Mindware | Richard E. Nisbett |
-| 09 | How the Mind Works | Steven Pinker |
-| 10 | The Scout Mindset | Julia Galef |
+Thinking, Fast and Slow · The Social Animal · Psychology (14th ed.) · Mistakes Were Made (but Not by Me) · The Invisible Gorilla · How Emotions Are Made · Stumbling on Happiness · Mindware · How the Mind Works · The Scout Mindset
 </details>
 
 <details>
-<summary><strong>2 · Human behaviour</strong> — why people act, form habits, cooperate and resist change</summary>
+<summary><strong>Human behaviour</strong> · Sapolsky, Ross &amp; Nisbett, Wood, Thaler &amp; Sunstein, Haidt, Lieberman, Fogg, Mullainathan &amp; Shafir, Henrich, Simler &amp; Hanson</summary>
 
-| # | Book | Author |
-|---|---|---|
-| 01 | Behave | Robert M. Sapolsky |
-| 02 | The Person and the Situation | Lee Ross, Richard E. Nisbett |
-| 03 | Good Habits, Bad Habits | Wendy Wood |
-| 04 | Nudge: The Final Edition | Richard H. Thaler, Cass R. Sunstein |
-| 05 | The Righteous Mind | Jonathan Haidt |
-| 06 | Social | Matthew D. Lieberman |
-| 07 | Tiny Habits | BJ Fogg |
-| 08 | Scarcity | Sendhil Mullainathan, Eldar Shafir |
-| 09 | The Secret of Our Success | Joseph Henrich |
-| 10 | The Elephant in the Brain | Kevin Simler, Robin Hanson |
+Behave · The Person and the Situation · Good Habits, Bad Habits · Nudge: The Final Edition · The Righteous Mind · Social · Tiny Habits · Scarcity · The Secret of Our Success · The Elephant in the Brain
 </details>
 
 <details>
-<summary><strong>3 · Marketing psychology</strong> — attention, perception, trust, desire and choice</summary>
+<summary><strong>Marketing psychology</strong> · Cialdini, Shotton, Barden, Heath &amp; Heath, Berger, Sutherland, Martin &amp; Marks, Sharp</summary>
 
-| # | Book | Author |
-|---|---|---|
-| 01 | Influence (New and Expanded) | Robert B. Cialdini |
-| 02 | The Choice Factory | Richard Shotton |
-| 03 | Decoded | Phil Barden |
-| 04 | Pre-Suasion | Robert Cialdini |
-| 05 | Made to Stick | Chip Heath, Dan Heath |
-| 06 | Contagious | Jonah Berger |
-| 07 | The Catalyst | Jonah Berger |
-| 08 | Alchemy | Rory Sutherland |
-| 09 | Messengers | Stephen Martin, Joseph Marks |
-| 10 | How Brands Grow | Byron Sharp |
+Influence (New and Expanded) · The Choice Factory · Decoded · Pre-Suasion · Made to Stick · Contagious · The Catalyst · Alchemy · Messengers · How Brands Grow
 </details>
 
 <details>
-<summary><strong>4 · Sales psychology</strong> — discovery, trust, indecision, negotiation</summary>
+<summary><strong>Sales psychology</strong> · Rackham, Dixon &amp; McKenna, Maister/Green/Galford, Keenan, Voss, Dixon &amp; Adamson, Beckwith, Pink, Hoffeld, Khalsa &amp; Illig</summary>
 
-| # | Book | Author |
-|---|---|---|
-| 01 | SPIN Selling | Neil Rackham |
-| 02 | The JOLT Effect | Matthew Dixon, Ted McKenna |
-| 03 | The Trusted Advisor | David H. Maister, Charles H. Green, Robert M. Galford |
-| 04 | Gap Selling | Keenan |
-| 05 | Never Split the Difference | Chris Voss, Tahl Raz |
-| 06 | The Challenger Sale | Matthew Dixon, Brent Adamson |
-| 07 | Selling the Invisible | Harry Beckwith |
-| 08 | To Sell Is Human | Daniel H. Pink |
-| 09 | The Science of Selling | David Hoffeld |
-| 10 | Let's Get Real or Let's Not Play | Mahan Khalsa, Randy Illig |
+SPIN Selling · The JOLT Effect · The Trusted Advisor · Gap Selling · Never Split the Difference · The Challenger Sale · Selling the Invisible · To Sell Is Human · The Science of Selling · Let's Get Real or Let's Not Play
 </details>
 
 <details>
-<summary><strong>5 · Copywriting</strong> — researching the message and writing words that sell</summary>
+<summary><strong>Copywriting</strong> · Schwartz, Bly, Sugarman, Hopkins, Ogilvy, Masterson &amp; Forde, Caples, Wiebe, Halbert, Whitman</summary>
 
-| # | Book | Author |
-|---|---|---|
-| 01 | Breakthrough Advertising | Eugene M. Schwartz |
-| 02 | The Copywriter's Handbook (4th ed.) | Robert W. Bly |
-| 03 | The Adweek Copywriting Handbook | Joseph Sugarman |
-| 04 | Scientific Advertising | Claude C. Hopkins |
-| 05 | Ogilvy on Advertising | David Ogilvy |
-| 06 | Great Leads | Michael Masterson, John Forde |
-| 07 | Tested Advertising Methods | John Caples |
-| 08 | Where Stellar Messages Come From | Joanna Wiebe |
-| 09 | The Boron Letters | Gary C. Halbert, Bond Halbert |
-| 10 | Cashvertising | Drew Eric Whitman |
+Breakthrough Advertising · The Copywriter's Handbook · The Adweek Copywriting Handbook · Scientific Advertising · Ogilvy on Advertising · Great Leads · Tested Advertising Methods · Where Stellar Messages Come From · The Boron Letters · Cashvertising
 </details>
 
 <details>
-<summary><strong>6 · Offer creation</strong> — outcome, scope, price, terms, positioning, validation</summary>
+<summary><strong>Offer creation</strong> · Hormozi, Osterwalder et al., Dunford, Ramanujam &amp; Tacke, Joyner, Enns, Moesta &amp; Engle, Christensen et al., Bland &amp; Osterwalder, Kim &amp; Mauborgne</summary>
 
-| # | Book | Author |
-|---|---|---|
-| 01 | $100M Offers | Alex Hormozi |
-| 02 | Value Proposition Design | Osterwalder, Pigneur, Bernarda, Smith |
-| 03 | Obviously Awesome | April Dunford |
-| 04 | Monetizing Innovation | Madhavan Ramanujam, Georg Tacke |
-| 05 | The Irresistible Offer | Mark Joyner |
-| 06 | The Win Without Pitching Manifesto | Blair Enns |
-| 07 | Demand-Side Sales 101 | Bob Moesta, Greg Engle |
-| 08 | Competing Against Luck | Christensen, Hall, Dillon, Duncan |
-| 09 | Testing Business Ideas | David J. Bland, Alexander Osterwalder |
-| 10 | Blue Ocean Strategy | W. Chan Kim, Renée Mauborgne |
+$100M Offers · Value Proposition Design · Obviously Awesome · Monetizing Innovation · The Irresistible Offer · The Win Without Pitching Manifesto · Demand-Side Sales 101 · Competing Against Luck · Testing Business Ideas · Blue Ocean Strategy
 </details>
 
 <details>
-<summary><strong>7 · Client-eagerness playbook</strong> — the cross-category reading order, as a process</summary>
+<summary><strong>Client-eagerness playbook</strong> · the 10-book reading order as a 10-stage process</summary>
 
-| Stage | Book | Artifact you produce |
-|---|---|---|
-| 1 | Obviously Awesome | Positioning statement |
-| 2 | Value Proposition Design | Value Proposition Canvas for one segment |
-| 3 | $100M Offers | One focused package: outcome, scope, price, terms |
-| 4 | SPIN Selling | Discovery-call outline |
-| 5 | The Trusted Advisor | Trust-building plan |
-| 6 | Influence | Evidence audit of website and proposal |
-| 7 | Selling the Invisible | Ways prospects can evaluate the service |
-| 8 | Where Stellar Messages Come From | Customer-language swipe file |
-| 9 | The JOLT Effect | Plan for indecision and "let me think about it" |
-| 10 | Breakthrough Advertising | One message per awareness stage |
+Obviously Awesome → Value Proposition Design → $100M Offers → SPIN Selling → The Trusted Advisor → Influence → Selling the Invisible → Where Stellar Messages Come From → The JOLT Effect → Breakthrough Advertising
 </details>
-
----
-
-## 🏗 How a skill is built
-
-Every skill follows the same shape, adapted from [book-to-skill](https://github.com/virgiliojr94/book-to-skill)'s output format:
-
-```
-skills/sales-psychology/
-├── SKILL.md          ~2.5k tokens · core frameworks + Situation Index → loaded on invoke
-├── playbooks.md      step-by-step workflows for real tasks, each step cites its book
-├── cheatsheet.md     "when X, do Y, because Z" · decision trees · thresholds · tells
-├── patterns.md       every technique across the 10 books, deduplicated
-├── glossary.md       terms → definition → (book ##)
-└── books/
-    ├── 01-spin-selling.md        ~1.2k tokens each · loaded only when relevant
-    ├── 02-the-jolt-effect.md
-    └── …
-```
-
-Each book file: **Core Idea → Frameworks (with explicit steps and failure modes) → Key Principles → Anti-patterns → Worked Example applied to selling AI automation → Caveats → Connects To.**
-
-**Token economics** (from `claude plugin details book-skills`):
-
-| | Cost |
-|---|---|
-| Always-on, all 7 skills | ~1,035 tokens / session |
-| Per invocation | ~2.6–3k tokens (`SKILL.md` only) |
-| Book file | ~1–1.6k tokens, on demand |
-
----
-
-## 🎯 Design decisions
-
-- **Seven skills, not one.** Claude routes on the `description` line. Seven specific descriptions route better than one "70 books about selling" blob, and only the invoked skill's `SKILL.md` ever loads.
-- **Playbooks over summaries.** The most-used file in each skill is `playbooks.md`: numbered steps, output templates, common failures. Reading about SPIN is not the same as having a discovery-call outline.
-- **Exact framework names.** "SPIN", "Value Equation", "REDUCE", "Trust Equation", "B = MAP". Authors name things for a reason; paraphrases lose the precision.
-- **Where books disagree, say so.** Hormozi's urgency devices vs Dixon & McKenna's finding that pressure deepens indecision; Barrett vs Pinker on emotion; Kahneman vs Nisbett vs Galef on whether you can debias yourself. Each `patterns.md` has a "where the books disagree" section.
-- **Cross-linked.** The playbook skill points to the fuller treatment in sibling skills with relative links that resolve wherever the plugin is installed.
 
 ---
 
 ## ⚠️ Honest caveats
 
-- **Distilled from the authors' published frameworks, not from book text.** No passages are reproduced. Where a builder was unsure of a specific claim it was omitted, not invented, and each book file has a Caveats section. The lowest-confidence file is Joanna Wiebe's *Where Stellar Messages Come From* (recent practitioner book; written from her publicly taught Copyhackers method and flagged as such).
-- **Proprietary sales research** (SPIN's 35,000 calls, JOLT's 2.5M conversations, Challenger) is marked as practitioner evidence, not peer-reviewed science.
-- **Replication issues** are called out where known: social priming in *Thinking, Fast and Slow*, ego depletion, contested nudge effect sizes.
-- **Hormozi's results don't guarantee yours.** The framework is applied as something to validate, not a promise.
-
-If you own a book as EPUB/PDF, [book-to-skill](https://github.com/virgiliojr94/book-to-skill)'s fold-in mode can enrich the matching skill with the real text.
+- **Distilled from the authors' published frameworks, not from book text.** No passages are reproduced. Uncertain claims were omitted, not invented; each book file has a Caveats section. Lowest confidence: Wiebe's *Where Stellar Messages Come From* (written from her publicly taught method).
+- **Proprietary sales research** (SPIN, JOLT, Challenger) is practitioner evidence, not peer-reviewed science, and is labelled that way.
+- **Thresholds are rules of thumb** (reply-rate winners, magnet keep/kill bands, pricing ratios). They are labelled as the plugin's defaults, and you can override them in your workspace.
+- **It drafts; you decide.** The system is built to stop overclaiming and pressure tactics, not to automate judgment away.
 
 ---
 
 ## 🤝 Contributing
 
-Corrections to a framework, a missing caveat, or a sharper decision rule: open a PR against the relevant `skills/<skill>/books/NN-*.md`. Keep the file's section structure and token budget. Please don't paste book text.
+PRs welcome: a sharper rubric, a missing caveat, a new connector fallback, a new eval case. Keep to the structure in `shared/workspace.md`, keep eval fixtures synthetic, and never paste book text.
 
 ## 📄 License
 

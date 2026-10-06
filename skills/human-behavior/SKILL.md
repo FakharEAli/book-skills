@@ -103,3 +103,5 @@ When a question goes beyond the Core Frameworks, READ the relevant `books/NN-*.m
 
 ## Scope & Limits
 Distilled from the frameworks these books are known for, not from the book text. Where books disagree, the book files say so. Treat proprietary sales-research claims as practitioner evidence, not replicated science. Several classic social-psychology effects cited by these authors (priming, some ego-depletion work) have weak replication records; the structural claims (situations > traits, defaults, friction, prestige bias) are robust. Combine with the sibling skills: human-psychology, human-behavior, marketing-psychology, sales-psychology, copywriting, offer-creation, client-eagerness-playbook.
+
+**To apply these methods to your real pipeline**, use the workflow skills: `setup` (workspace), `lead-magnets`, `outreach`, `deals`, `pitch`. They cite this skill's book files as their method library.

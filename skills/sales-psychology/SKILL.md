@@ -92,3 +92,5 @@ When a question goes beyond the Core Frameworks, READ the relevant `books/NN-*.m
 
 ## Scope & Limits
 Distilled from the frameworks these books are known for, not from the book text. Where books disagree, the book files say so. Treat proprietary sales-research claims as practitioner evidence, not replicated science: SPIN (Huthwaite, ~35,000 calls), JOLT (Tethr, ~2.5M conversations) and Challenger (CEB survey) rest on proprietary, non-peer-reviewed data; Pink and Hoffeld cite psychology studies, several of which have replication problems. Combine with the sibling skills: human-psychology, human-behavior, marketing-psychology, sales-psychology, copywriting, offer-creation, client-eagerness-playbook.
+
+**To apply these methods to your real pipeline**, use the workflow skills: `setup` (workspace), `lead-magnets`, `outreach`, `deals`, `pitch`. They cite this skill's book files as their method library.
