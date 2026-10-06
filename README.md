@@ -165,7 +165,7 @@ book-skills/
 └── CONNECTORS.md  tool categories, detection, fallbacks
 ```
 
-**Token economics:** only skill descriptions are always loaded. A workflow loads its `SKILL.md` (~1.5k tokens) and then only the one mode file it needs (~2k). Book files load only when a recommendation needs the full method.
+**Token economics:** only skill descriptions are always loaded. All 12 skill descriptions plus 4 agent descriptions cost ~2.4k tokens per session; hooks cost nothing. A workflow then loads its `SKILL.md` (~2k tokens) and only the one mode file it needs (~2k). Book files load only when a recommendation needs the full method.
 
 ---
 
